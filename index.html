@@ -69,10 +69,10 @@ canvas{display:block;border-radius:10px;touch-action:none;box-shadow:0 0 0 1px v
 
 <script>
 const T={
-tr:{tag:'Topsuz oyun · Kör noktayı bul',how1:'Sen topsuz forvetsin. Parmağını sahada sürükleyerek koş.',how2:'Savunmacıların ışığı neyi gördüklerini gösterir. Işıkta kalırsan fark edilir ve markaja alınırsın.',how3:'Ofsayt çizgisinde, topun uzak tarafında, savunmacının omzunda dur ve doğru anda pası iste.',start:'Başla',again:'Tekrar oyna',call:'Pas iste',round:'Atak',score:'Puan',goal:'GOL!',offside:'Ofsayt',seen:'Görüldün, pas riskli',marked:'Markajdasın',blocked:'Pas yolu kapalı',late:'Süre doldu, pas gelmedi',tight:'çizgide mükemmel zamanlama',goals:'Gol',common:'En sık hata',none:'Yok',best:'Rekor',end:'Antrenman bitti',newbest:'Yeni rekor!',tip:'Forvetler topun uzak tarafında, son savunmacının omzunda bekler.',easy:'Kolay',medium:'Orta',hard:'Zor'},
-de:{tag:'Spiel ohne Ball · Finde den toten Winkel',how1:'Du bist Stürmer ohne Ball. Ziehe den Finger über das Feld, um zu laufen.',how2:'Das Licht der Verteidiger zeigt, was sie sehen. Bleibst du im Licht, wirst du entdeckt und gedeckt.',how3:'Steh auf der Abseitslinie, auf der ballfernen Seite, an der Schulter des Verteidigers, und fordere im richtigen Moment den Ball.',start:'Start',again:'Nochmal',call:'Ball fordern',round:'Angriff',score:'Punkte',goal:'TOR!',offside:'Abseits',seen:'Gesehen, Pass zu riskant',marked:'Du wirst gedeckt',blocked:'Passweg zu',late:'Zeit abgelaufen',tight:'perfektes Timing an der Linie',goals:'Tore',common:'Häufigster Fehler',none:'Keiner',best:'Rekord',end:'Training beendet',newbest:'Neuer Rekord!',tip:'Stürmer warten ballfern an der Schulter des letzten Verteidigers.',easy:'Leicht',medium:'Mittel',hard:'Schwer'},
-en:{tag:'Off the ball · Find the blind spot',how1:'You are a striker without the ball. Drag your finger on the pitch to run.',how2:'Each defender’s light shows what they see. Stay in the light and you get spotted and marked.',how3:'Hold the offside line, on the far side from the ball, on a defender’s shoulder, and call for it at the right moment.',start:'Play',again:'Play again',call:'Call for it',round:'Attack',score:'Score',goal:'GOAL!',offside:'Offside',seen:'Spotted, pass too risky',marked:'You are marked',blocked:'Passing lane closed',late:'Time up, no pass',tight:'perfect timing on the line',goals:'Goals',common:'Most common mistake',none:'None',best:'Best',end:'Session over',newbest:'New best!',tip:'Strikers wait on the far side, on the last defender’s shoulder.',easy:'Easy',medium:'Medium',hard:'Hard'},
-fr:{tag:'Jeu sans ballon · Trouve l’angle mort',how1:'Tu es attaquant sans ballon. Fais glisser ton doigt sur le terrain pour courir.',how2:'La lumière des défenseurs montre ce qu’ils voient. Reste dedans et tu seras repéré puis marqué.',how3:'Reste sur la ligne du hors-jeu, côté opposé au ballon, à l’épaule d’un défenseur, et demande le ballon au bon moment.',start:'Jouer',again:'Rejouer',call:'Demande le ballon',round:'Attaque',score:'Points',goal:'BUT !',offside:'Hors-jeu',seen:'Repéré, passe risquée',marked:'Tu es marqué',blocked:'Ligne de passe fermée',late:'Temps écoulé',tight:'timing parfait sur la ligne',goals:'Buts',common:'Erreur la plus fréquente',none:'Aucune',best:'Record',end:'Séance terminée',newbest:'Nouveau record !',tip:'Les attaquants attendent côté opposé, à l’épaule du dernier défenseur.',easy:'Facile',medium:'Moyen',hard:'Difficile'}
+tr:{tag:'Topsuz oyun · Kör noktayı bul',how1:'Sen topsuz forvetsin. Parmağını sahada sürükleyerek koş.',how2:'Savunmacıların ışığı neyi gördüklerini gösterir. Işıkta kalırsan fark edilir ve markaja alınırsın.',how3:'Çizgiye yaklaş ama geçme. Topun uzak tarafından, savunmacının omzuna gel ve doğru anda pası iste. Seni markaja alan savunmacıdan koşarak kurtulabilirsin.',start:'Başla',again:'Tekrar oyna',call:'Pas iste',round:'Atak',score:'Puan',goal:'GOL!',offside:'Ofsayt',seen:'Görüldün, pas riskli',marked:'Markajdasın',blocked:'Pas yolu kapalı',late:'Süre doldu, pas gelmedi',deep:'Çok derindesin, ara pası koşamazsın',tight:'çizgide mükemmel zamanlama',goals:'Gol',common:'En sık hata',none:'Yok',best:'Rekor',end:'Antrenman bitti',newbest:'Yeni rekor!',tip:'Forvetler topun uzak tarafında, son savunmacının omzunda bekler.',easy:'Kolay',medium:'Orta',hard:'Zor'},
+de:{tag:'Spiel ohne Ball · Finde den toten Winkel',how1:'Du bist Stürmer ohne Ball. Ziehe den Finger über das Feld, um zu laufen.',how2:'Das Licht der Verteidiger zeigt, was sie sehen. Bleibst du im Licht, wirst du entdeckt und gedeckt.',how3:'Steh auf der Abseitslinie, auf der ballfernen Seite, an der Schulter des Verteidigers, und fordere im richtigen Moment den Ball.',start:'Start',again:'Nochmal',call:'Ball fordern',round:'Angriff',score:'Punkte',goal:'TOR!',offside:'Abseits',seen:'Gesehen, Pass zu riskant',marked:'Du wirst gedeckt',blocked:'Passweg zu',late:'Zeit abgelaufen',deep:'Zu tief, kein Pass in die Tiefe',tight:'perfektes Timing an der Linie',goals:'Tore',common:'Häufigster Fehler',none:'Keiner',best:'Rekord',end:'Training beendet',newbest:'Neuer Rekord!',tip:'Stürmer warten ballfern an der Schulter des letzten Verteidigers.',easy:'Leicht',medium:'Mittel',hard:'Schwer'},
+en:{tag:'Off the ball · Find the blind spot',how1:'You are a striker without the ball. Drag your finger on the pitch to run.',how2:'Each defender’s light shows what they see. Stay in the light and you get spotted and marked.',how3:'Hold the offside line, on the far side from the ball, on a defender’s shoulder, and call for it at the right moment.',start:'Play',again:'Play again',call:'Call for it',round:'Attack',score:'Score',goal:'GOAL!',offside:'Offside',seen:'Spotted, pass too risky',marked:'You are marked',blocked:'Passing lane closed',late:'Time up, no pass',deep:'Too deep, no ball in behind',tight:'perfect timing on the line',goals:'Goals',common:'Most common mistake',none:'None',best:'Best',end:'Session over',newbest:'New best!',tip:'Strikers wait on the far side, on the last defender’s shoulder.',easy:'Easy',medium:'Medium',hard:'Hard'},
+fr:{tag:'Jeu sans ballon · Trouve l’angle mort',how1:'Tu es attaquant sans ballon. Fais glisser ton doigt sur le terrain pour courir.',how2:'La lumière des défenseurs montre ce qu’ils voient. Reste dedans et tu seras repéré puis marqué.',how3:'Reste sur la ligne du hors-jeu, côté opposé au ballon, à l’épaule d’un défenseur, et demande le ballon au bon moment.',start:'Jouer',again:'Rejouer',call:'Demande le ballon',round:'Attaque',score:'Points',goal:'BUT !',offside:'Hors-jeu',seen:'Repéré, passe risquée',marked:'Tu es marqué',blocked:'Ligne de passe fermée',late:'Temps écoulé',deep:'Trop bas, pas de passe en profondeur',tight:'timing parfait sur la ligne',goals:'Buts',common:'Erreur la plus fréquente',none:'Aucune',best:'Record',end:'Séance terminée',newbest:'Nouveau record !',tip:'Les attaquants attendent côté opposé, à l’épaule du dernier défenseur.',easy:'Facile',medium:'Moyen',hard:'Difficile'}
 };
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 let lang=store.get('ttsc_lang')||((navigator.language||'tr').slice(0,2));if(!T[lang])lang='tr';
@@ -80,10 +80,10 @@ let level=store.get('ttsc_kornokta_level')||'easy';if(!['easy','medium','hard'].
 const tx=k=>(T[lang][k]||T.tr[k]||k),$=id=>document.getElementById(id);
 function applyLang(){document.documentElement.lang=lang;document.querySelectorAll('[data-i]').forEach(el=>el.textContent=tx(el.dataset.i));$('lang').value=lang;$('lvl').value=level}
 
-const LW=360,LH=540,ROUNDS=8,HALF=.87,RANGE=190;
-const LV={easy:{nd:3,time:8,seenMax:.9,check:[2.2,3.6],trap:false,line:true},
-          medium:{nd:4,time:7,seenMax:.7,check:[1.6,3.0],trap:true,line:true},
-          hard:{nd:4,time:6,seenMax:.55,check:[1.0,2.2],trap:true,line:false}};
+const LW=360,LH=540,ROUNDS=8,HALF=.87,RANGE=135,DEEP=50;
+const LV={easy:{nd:3,time:9,seenMax:1.0,check:[2.6,4.0],trap:false,line:true,msp:70},
+          medium:{nd:4,time:8,seenMax:.8,check:[2.0,3.4],trap:true,line:true,msp:78},
+          hard:{nd:4,time:7,seenMax:.65,check:[1.5,2.7],trap:true,line:false,msp:86}};
 const rand=(a,b)=>a+Math.random()*(b-a),clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function segDist(p,a,b){const dx=b.x-a.x,dy=b.y-a.y,l2=dx*dx+dy*dy||1;let t=clamp(((p.x-a.x)*dx+(p.y-a.y)*dy)/l2,0,1);return Math.hypot(p.x-(a.x+dx*t),p.y-(a.y+dy*t))}
 function angDiff(a,b){let d=a-b;while(d>Math.PI)d-=2*Math.PI;while(d<-Math.PI)d+=2*Math.PI;return d}
@@ -100,7 +100,7 @@ function setup(){
   for(let i=0;i<L.nd;i++){const bx=60+i*(240/(L.nd-1))+rand(-12,12);defs.push({x:bx,y:210+rand(-6,6),bx,jit:rand(-6,6),dir:Math.PI/2,look:0,next:rand(...L.check),seen:0,mark:false})}
   gk={x:180,y:42};
   car={x:rand(100,260),y:445,tx:rand(60,300),ty:rand(420,470)};
-  me=Math.random()<.5?{x:rand(24,40),y:rand(230,250)}:{x:rand(320,336),y:rand(230,250)};aim=null;lineBase=210;nextTrap=rand(2,3.5);
+  me={x:rand(110,250),y:rand(355,375)};aim=null;lineBase=210;nextTrap=rand(2,3.5);
 }
 function lineY(){return Math.min(...defs.map(d=>d.y))}
 function inCone(d,p){const dd=dist(d,p);if(dd>RANGE||dd<1)return false;return Math.abs(angDiff(Math.atan2(p.y-d.y,p.x-d.x),d.dir))<HALF}
@@ -113,6 +113,7 @@ function callBall(){
   if(phase!=='play')return;const ly=lineY();let reason=null;
   const P={x:me.x,y:Math.max(70,me.y-55)};
   if(me.y<ly-3)reason='offside';
+  else if(me.y>ly+DEEP)reason='deep';
   else if(defs.some(d=>dist(d,me)<32))reason='marked';
   else if(defs.some(d=>inCone(d,me)))reason='seen';
   else{const blk=defs.find(d=>segDist(d,car,P)<15);if(blk){reason='blocked';P.x=blk.x;P.y=blk.y}}
@@ -140,17 +141,18 @@ function update(dt){
     // ball carrier wanders
     const cd=Math.hypot(car.tx-car.x,car.ty-car.y);if(cd<4){car.tx=rand(60,300);car.ty=rand(420,470)}else{car.x+=(car.tx-car.x)/cd*45*dt;car.y+=(car.ty-car.y)/cd*45*dt}
     // offside trap + slow drop
-    if(L.trap&&tt>=nextTrap){lineBase=Math.min(300,lineBase+30);nextTrap=tt+rand(2.4,4)}
+    if(L.trap&&tt>=nextTrap){lineBase=Math.min(290,lineBase+24);nextTrap=tt+rand(2.6,4.2)}
     lineBase=Math.max(175,lineBase-6*dt);
     // me runs toward finger
     if(aim){const d=dist(aim,me);if(d>2){const s=Math.min(d,150*dt);me.x+=(aim.x-me.x)/d*s;me.y+=(aim.y-me.y)/d*s}}
     me.x=clamp(me.x,16,344);me.y=clamp(me.y,60,520);
     for(const d of defs){
       let tx_,ty_,sp;
-      if(d.mark){tx_=me.x;ty_=me.y-16;sp=88}
+      if(d.mark){tx_=me.x;ty_=me.y-16;sp=L.msp;
+        if(dist(d,me)>70){d.lose=(d.lose||0)+dt;if(d.lose>.8){d.mark=false;d.seen=0;d.lose=0}}else d.lose=0}
       else{tx_=d.bx+(car.x-180)*.25;ty_=lineBase+d.jit;sp=d.y<ty_-4?110:70}
       const dd=Math.hypot(tx_-d.x,ty_-d.y);if(dd>1){const s=Math.min(dd,sp*dt);d.x+=(tx_-d.x)/dd*s;d.y+=(ty_-d.y)/dd*s}
-      d.next-=dt;if(d.next<=0){if(dist(d,me)<150)d.look=.55;d.next=rand(...L.check)}
+      d.next-=dt;if(d.next<=0){if(!d.mark&&dist(d,me)<120)d.look=.45;d.next=rand(...L.check)}
       d.look=Math.max(0,d.look-dt);
       const want=(d.mark||d.look>0)?Math.atan2(me.y-d.y,me.x-d.x):Math.atan2(car.y-d.y,car.x-d.x);
       d.dir+=angDiff(want,d.dir)*Math.min(1,dt*8);
